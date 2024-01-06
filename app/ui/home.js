@@ -32,7 +32,7 @@ export default function Home() {
           </div>
           <Link href="/contatos">
             <Image
-              src="/contato-tile.jpg "
+              src="/contato-tile.jpg"
               width={400}
               height={250}
               alt="Imagem de telefone"
