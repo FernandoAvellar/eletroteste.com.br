@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <div className="container mx-auto grid max-w-6xl grid-cols-3 gap-6">
-        <div className="col-span-3 row-span-2 overflow-hidden rounded-lg border-4 border-solid border-white shadow-md">
+        <div className="col-span-3 row-span-2 overflow-hidden rounded-lg">
           <Image
             src="/jumbotron.jpg"
             width={1200}
@@ -13,7 +13,7 @@ export default function Home() {
             alt="Imagem de capa"
           ></Image>
         </div>
-        <div className="relative w-fit overflow-hidden rounded-lg border-4 border-solid border-white shadow-md">
+        <div className="relative w-fit overflow-hidden rounded-lg">
           <div className=" absolute bottom-0 w-full bg-gray-900/80 text-center text-xl tracking-wide text-white">
             <span>PRODUTOS</span>
           </div>
@@ -26,7 +26,7 @@ export default function Home() {
             ></Image>
           </Link>
         </div>
-        <div className="relative w-fit overflow-hidden rounded-lg border-4 border-solid border-white shadow-md">
+        <div className="relative w-fit overflow-hidden rounded-lg">
           <div className="absolute bottom-0 inline-block w-full bg-gray-900/80 text-center text-xl tracking-wide text-white">
             <span>CONTATOS</span>
           </div>
@@ -40,7 +40,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="relative w-fit overflow-hidden rounded-lg border-4 border-solid border-white shadow-md">
+        <div className="relative w-fit overflow-hidden rounded-lg border-4 border-solid border-gray-50 shadow-md">
           <div className="absolute bottom-0 w-full bg-gray-900/80 text-center text-xl tracking-wide text-white">
             <span>LOCALIZAÇÃO</span>
           </div>
