@@ -3,8 +3,9 @@ const produtos = [
     id: '01',
     titulo: 'Carga artificial ou Carga fantasma',
     modelo: 'PHL-03',
-    imagemRef: '/phl.jpg',
-    pdfRef: '/phl.pdf',
+    imagemRef: '/phl03.jpg',
+    pdfRef: '/phl03.pdf',
+    categoria: 'cargas',
     conteudo:
       'Carga trifásica, utilizada na calibração de medidores de energia, mono ou trifásicos.',
   },
@@ -14,6 +15,7 @@ const produtos = [
     modelo: 'CR-60',
     imagemRef: '/cr60.jpg',
     pdfRef: '/cr60.pdf',
+    categoria: 'cargas',
     conteudo:
       'Carga trifásica, utilizada na calibração de medidores de energia, mono ou Cargas puramente resistivas cosF=0°. Modelos: (CR60): 60/30A em 120V/240V; (CR30): 30/15A em 120/240V e (CR150): 150A em 48V.',
   },
@@ -23,6 +25,7 @@ const produtos = [
     modelo: 'CR-77',
     imagemRef: '/cr77.jpg',
     pdfRef: '/cr77.pdf',
+    categoria: 'cargas',
     conteudo: 'Cargas puramente resistivas cosFi=0°: 70A X 120V e 140A X 60V.',
   },
   {
@@ -31,6 +34,7 @@ const produtos = [
     modelo: 'TCR-23',
     imagemRef: '/tcr23.jpg',
     pdfRef: '/tcr23.pdf',
+    categoria: 'cargas',
     conteudo:
       'Carga resistiva para ensaio de equipamentos de telecomunicações de acordo com as resoluções da ANATEL para teste de risco contra incêndio.',
   },
@@ -40,6 +44,7 @@ const produtos = [
     modelo: 'CR-15',
     imagemRef: '/cr15.jpg',
     pdfRef: '/cr15.pdf',
+    categoria: 'cargas',
     conteudo:
       'Para qualquer aplicação onde se faz necessário corrente limitada através de elementos puramente resistivos.',
   },
@@ -49,6 +54,7 @@ const produtos = [
     modelo: 'ET-42W',
     imagemRef: '/et42w.jpg',
     pdfRef: '/et42w.pdf',
+    categoria: 'medidores',
     conteudo:
       'Cronometragem do tempo de abertura e fechamento de relés, contatores, etc.',
   },
@@ -58,6 +64,7 @@ const produtos = [
     modelo: 'FET',
     imagemRef: '/fet.jpg',
     pdfRef: '/fet.pdf',
+    categoria: 'fontes',
     conteudo:
       'Fonte de alimentação CC linear, estabilizada e variável. Possui medidores de precisão integrado. Para uso em laboratório ou com fontes de potencia com alimentação trifásica.',
   },
@@ -67,6 +74,7 @@ const produtos = [
     modelo: 'TC-3000W',
     imagemRef: '/tc3000w.jpg',
     pdfRef: '/tc3000w.pdf',
+    categoria: 'fontes',
     conteudo:
       'Fonte CA de altas corrente para teste de disjuntores e de relação e excitação de TCs.',
   },
@@ -76,6 +84,7 @@ const produtos = [
     modelo: 'TR-601T',
     imagemRef: '/tr601t.jpg',
     pdfRef: '/tr601t.pdf',
+    categoria: 'telecomunicações',
     conteudo:
       'Produz perturbações eletromagnéticas de tensão de circuito aberto em frequência industrial nos terminais de energia e de telecomunicações conectados à rede externa.',
   },
@@ -83,8 +92,9 @@ const produtos = [
     id: '10',
     titulo: 'Ground bond test',
     modelo: 'EGB-2530',
-    imagemRef: '/egb.jpg',
-    pdfRef: '/egb.pdf',
+    imagemRef: '/egb2530.jpg',
+    pdfRef: '/egb2530.pdf',
+    categoria: 'medidores',
     conteudo:
       'Medidor de resistências de ligação a terra em equipamentos ou dispositivos. Usado para verificar a integridade da conexão a terra em 25A e 30A.',
   },
@@ -94,6 +104,7 @@ const produtos = [
     modelo: 'HP-5432',
     imagemRef: '/hp5432.jpg',
     pdfRef: '/hp5432.pdf',
+    categoria: 'hipot',
     conteudo:
       'Fonte de alta tensão CC ou CA com saída de 0 a 10, 20, 30 ou 40 KVcc OU saída de 0 a 10KVca ou 20KVca.',
   },
@@ -103,6 +114,7 @@ const produtos = [
     modelo: 'EH-510P',
     imagemRef: '/eh510p.jpg',
     pdfRef: '/eh510p.pdf',
+    categoria: 'hipot',
     conteudo:
       'Fonte de alta tensão CA 2KV, 3KV, 3.5KV, 5KV ou 7.5KV / 5mA, 10mA, 20mA ou 30mA.',
   },
@@ -112,6 +124,7 @@ const produtos = [
     modelo: 'EH-4325C',
     imagemRef: '/eh4325c.jpg',
     pdfRef: '/eh4325c.pdf',
+    categoria: 'hipot',
     conteudo: 'Fonte de alta tensão CA com saída de 35KV x 10mA.',
   },
   {
@@ -120,6 +133,7 @@ const produtos = [
     modelo: 'EH-5789',
     imagemRef: '/eh5789.jpg',
     pdfRef: '/eh5789.pdf',
+    categoria: 'hipot',
     conteudo: 'Fonte CA de alta tensão e alta potência.',
   },
   {
@@ -128,6 +142,7 @@ const produtos = [
     modelo: 'EH-510PCC',
     imagemRef: '/eh510pcc.jpg',
     pdfRef: '/eh510pcc.pdf',
+    categoria: 'hipot',
     conteudo: 'Fonte de alta tensão DC 2KV, 3.5KV, 5KV, 10KV ou 12KV / 5mA.',
   },
   {
@@ -136,6 +151,7 @@ const produtos = [
     modelo: 'EH-6005C',
     imagemRef: '/eh6005c.jpg',
     pdfRef: '/eh6005c.pdf',
+    categoria: 'hipot',
     conteudo: 'Fonte de alta tensão CC 50KV/5mA ou 60KV/5mA.',
   },
   {
@@ -144,6 +160,7 @@ const produtos = [
     modelo: 'EH-12005C',
     imagemRef: '/eh12005c.jpg',
     pdfRef: '/eh12005c.pdf',
+    categoria: 'hipot',
     conteudo: 'Fonte de alta tensão CC com saída diferencial de 120KVcc.',
   },
   {
@@ -152,6 +169,7 @@ const produtos = [
     modelo: 'MA-360',
     imagemRef: '/ma360.jpg',
     pdfRef: '/ma360.pdf',
+    categoria: 'medidores',
     conteudo:
       'Medidas de ângulo de fase de alta precisão entre tensões e/ou correntes nos ensaios de relés, medidores de energia e potência e sincronoscópios.',
   },
@@ -161,6 +179,7 @@ const produtos = [
     modelo: 'MCF-01',
     imagemRef: '/mcf01.jpg',
     pdfRef: '/mcf01.pdf',
+    categoria: 'medidores',
     conteudo:
       'Medidas de correntes de fuga CC em tensões de serviços. Verifica requisito de proteção contra choques elétricos em equipamentos elétricos, eletrônicos ou de telecomunicações.',
   },
@@ -170,6 +189,7 @@ const produtos = [
     modelo: 'MCF-02',
     imagemRef: '/mcf02.jpg',
     pdfRef: '/mcf02.pdf',
+    categoria: 'medidores',
     conteudo:
       'Medidas de correntes de fuga CA em tensões de serviços. Verifica requisito de proteção contra choques elétricos em equipamentos elétricos, eletrônicos ou de telecomunicações.',
   },
@@ -179,8 +199,97 @@ const produtos = [
     modelo: 'TTR-01W',
     imagemRef: '/ttr01w.jpg',
     pdfRef: '/ttr01w.pdf',
+    categoria: 'medidores',
     conteudo:
       'Para medida de K=Ns/Np=Vs/Vp ou 1/K=Np/Ns=Vp/Vs em transformadores.',
+  },
+  {
+    id: '23',
+    titulo: 'Medidor de rigidez dielétrica de óleo isolante',
+    modelo: 'TRZ-60',
+    imagemRef: '/trz60.jpg',
+    pdfRef: '/trz60.pdf',
+    categoria: 'medidores',
+    conteudo:
+      'Análise da rigidez dielétrica do óleo isolante, satisfazendo grande variedade de normas existentes (ASTM, VDE e outras).',
+  },
+  {
+    id: '24',
+    titulo: 'Medidor de simultaneidade',
+    modelo: 'MS-03',
+    imagemRef: '/ms03.jpg',
+    pdfRef: '/ms03.pdf',
+    categoria: 'medidores',
+    conteudo:
+      'Registra o tempo de atuação de disjuntores trifásicos para verificar a sua simultaneidade.',
+  },
+  {
+    id: '25',
+    titulo: 'Microhmímetro',
+    modelo: 'MR-10W',
+    imagemRef: '/mr10w.jpg',
+    pdfRef: '/mr10w.pdf',
+    categoria: 'medidores',
+    conteudo:
+      'Mede com precisão resistências de valores muito baixo (1µohms), como resistência de contato de disjuntores, seccionadores e outras.',
+  },
+  {
+    id: '26',
+    titulo: 'Surge test de impulso',
+    modelo: 'TST-7350',
+    imagemRef: '/tst7350.jpg',
+    pdfRef: '/tst7350.pdf',
+    categoria: 'telecomunicações',
+    conteudo:
+      'Estabelece requisitos de compatibilidade eletromagnética EMC. Simula teste de impulso com tensões de pico de 1.5 a 4KV nas entradas de energia elétrica e de telecomunicações.',
+  },
+  {
+    id: '27',
+    titulo: 'Surge test ressonante',
+    modelo: 'ST-2500',
+    imagemRef: '/st2500.jpg',
+    pdfRef: '/st2500.pdf',
+    categoria: 'telecomunicações',
+    conteudo:
+      'Descobre defeitos em motores, geradores e bobinas pelo método da comparação. Analisa a condição operacional de um motor (bobina) verificando se existe curto entre espiras. Também faz o ensaio entre bobinas e entre as bobinas e a carcaça.',
+  },
+  {
+    id: '28',
+    titulo: 'Unidade de ensaio de relés',
+    modelo: 'UEE-110D/S',
+    imagemRef: '/uee110ds.jpg',
+    pdfRef: '/uee110ds.pdf',
+    categoria: 'medidores',
+    conteudo: 'Para calibração de relés de corrente/tensão.',
+  },
+  {
+    id: '29',
+    titulo: 'Unidade de ensaio de relés trifásicos',
+    modelo: 'UEE-3F',
+    imagemRef: '/uee3f.jpg',
+    pdfRef: '/uee3f.pdf',
+    categoria: 'medidores',
+    conteudo:
+      'Para calibração de relés trifásicos de ângulo, corrente e tensão.',
+  },
+  {
+    id: '30',
+    titulo: 'Unidade de ensaio de relés',
+    modelo: 'UEE-400',
+    imagemRef: '/uee400.jpg',
+    pdfRef: '/uee400.pdf',
+    categoria: 'medidores',
+    conteudo:
+      'Para calibração de disjuntores e relés térmicos (200A, 300A ou 400A).',
+  },
+  {
+    id: '31',
+    titulo: 'Unidade de ensaio de relés',
+    modelo: 'VMA-200',
+    imagemRef: '/vma200.jpg',
+    pdfRef: '/vma200.pdf',
+    categoria: 'medidores',
+    conteudo: 'Para calibração de relés direcionais.',
   },
 ]
 
