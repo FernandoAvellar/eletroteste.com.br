@@ -79,6 +79,109 @@ const produtos = [
     conteudo:
       'Produz perturbações eletromagnéticas de tensão de circuito aberto em frequência industrial nos terminais de energia e de telecomunicações conectados à rede externa.',
   },
+  {
+    id: '10',
+    titulo: 'Ground bond test',
+    modelo: 'EGB-2530',
+    imagemRef: '/egb.jpg',
+    pdfRef: '/egb.pdf',
+    conteudo:
+      'Medidor de resistências de ligação a terra em equipamentos ou dispositivos. Usado para verificar a integridade da conexão a terra em 25A e 30A.',
+  },
+  {
+    id: '12',
+    titulo: 'Hipot CC ou CA',
+    modelo: 'HP-5432',
+    imagemRef: '/hp5432.jpg',
+    pdfRef: '/hp5432.pdf',
+    conteudo:
+      'Fonte de alta tensão CC ou CA com saída de 0 a 10, 20, 30 ou 40 KVcc OU saída de 0 a 10KVca ou 20KVca.',
+  },
+  {
+    id: '13',
+    titulo: 'Hipot CA',
+    modelo: 'EH-510P',
+    imagemRef: '/eh510p.jpg',
+    pdfRef: '/eh510p.pdf',
+    conteudo:
+      'Fonte de alta tensão CA 2KV, 3KV, 3.5KV, 5KV ou 7.5KV / 5mA, 10mA, 20mA ou 30mA.',
+  },
+  {
+    id: '14',
+    titulo: 'Hipot CA',
+    modelo: 'EH-4325C',
+    imagemRef: '/eh4325c.jpg',
+    pdfRef: '/eh4325c.pdf',
+    conteudo: 'Fonte de alta tensão CA com saída de 35KV x 10mA.',
+  },
+  {
+    id: '15',
+    titulo: 'Hipot CA de alta potência',
+    modelo: 'EH-5789',
+    imagemRef: '/eh5789.jpg',
+    pdfRef: '/eh5789.pdf',
+    conteudo: 'Fonte CA de alta tensão e alta potência.',
+  },
+  {
+    id: '16',
+    titulo: 'Hipot CC',
+    modelo: 'EH-510PCC',
+    imagemRef: '/eh510pcc.jpg',
+    pdfRef: '/eh510pcc.pdf',
+    conteudo: 'Fonte de alta tensão DC 2KV, 3.5KV, 5KV, 10KV ou 12KV / 5mA.',
+  },
+  {
+    id: '17',
+    titulo: 'Hipot CC',
+    modelo: 'EH-6005C',
+    imagemRef: '/eh6005c.jpg',
+    pdfRef: '/eh6005c.pdf',
+    conteudo: 'Fonte de alta tensão CC 50KV/5mA ou 60KV/5mA.',
+  },
+  {
+    id: '18',
+    titulo: 'Hipot CC',
+    modelo: 'EH-12005C',
+    imagemRef: '/eh12005c.jpg',
+    pdfRef: '/eh12005c.pdf',
+    conteudo: 'Fonte de alta tensão CC com saída diferencial de 120KVcc.',
+  },
+  {
+    id: '19',
+    titulo: 'Medidor de ângulo de fase / Fasímetro',
+    modelo: 'MA-360',
+    imagemRef: '/ma360.jpg',
+    pdfRef: '/ma360.pdf',
+    conteudo:
+      'Medidas de ângulo de fase de alta precisão entre tensões e/ou correntes nos ensaios de relés, medidores de energia e potência e sincronoscópios.',
+  },
+  {
+    id: '20',
+    titulo: 'Medidor de corrente de fuga CC',
+    modelo: 'MCF-01',
+    imagemRef: '/mcf01.jpg',
+    pdfRef: '/mcf01.pdf',
+    conteudo:
+      'Medidas de correntes de fuga CC em tensões de serviços. Verifica requisito de proteção contra choques elétricos em equipamentos elétricos, eletrônicos ou de telecomunicações.',
+  },
+  {
+    id: '21',
+    titulo: 'Medidor de corrente de fuga CA',
+    modelo: 'MCF-02',
+    imagemRef: '/mcf02.jpg',
+    pdfRef: '/mcf02.pdf',
+    conteudo:
+      'Medidas de correntes de fuga CA em tensões de serviços. Verifica requisito de proteção contra choques elétricos em equipamentos elétricos, eletrônicos ou de telecomunicações.',
+  },
+  {
+    id: '22',
+    titulo: 'Medidor de relação de espiras de transformador',
+    modelo: 'TTR-01W',
+    imagemRef: '/ttr01w.jpg',
+    pdfRef: '/ttr01w.pdf',
+    conteudo:
+      'Para medida de K=Ns/Np=Vs/Vp ou 1/K=Np/Ns=Vp/Vs em transformadores.',
+  },
 ]
 
 module.exports = {
