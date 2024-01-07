@@ -84,7 +84,7 @@ const produtos = [
     modelo: 'TR-601T',
     imagemRef: '/tr601t.jpg',
     pdfRef: '/tr601t.pdf',
-    categoria: 'telecomunicações',
+    categoria: 'telecom',
     conteudo:
       'Produz perturbações eletromagnéticas de tensão de circuito aberto em frequência industrial nos terminais de energia e de telecomunicações conectados à rede externa.',
   },
@@ -239,7 +239,7 @@ const produtos = [
     modelo: 'TST-7350',
     imagemRef: '/tst7350.jpg',
     pdfRef: '/tst7350.pdf',
-    categoria: 'telecomunicações',
+    categoria: 'telecom',
     conteudo:
       'Estabelece requisitos de compatibilidade eletromagnética EMC. Simula teste de impulso com tensões de pico de 1.5 a 4KV nas entradas de energia elétrica e de telecomunicações.',
   },
@@ -249,7 +249,7 @@ const produtos = [
     modelo: 'ST-2500',
     imagemRef: '/st2500.jpg',
     pdfRef: '/st2500.pdf',
-    categoria: 'telecomunicações',
+    categoria: 'telecom',
     conteudo:
       'Descobre defeitos em motores, geradores e bobinas pelo método da comparação. Analisa a condição operacional de um motor (bobina) verificando se existe curto entre espiras. Também faz o ensaio entre bobinas e entre as bobinas e a carcaça.',
   },
