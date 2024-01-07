@@ -4,22 +4,21 @@ import React, { useState } from 'react'
 
 export default function ProdutosPage() {
   const { produtos } = require('../../app/database/produtos-data.js')
-  let produtosFiltrados = produtos
-
+  const [produtosFiltrados, setProdutosFiltrados] = useState(produtos)
   const [selectedFilter, setSelectedFilter] = useState('todos')
 
   function handleFilterChange(e) {
     const filtroSelecionado = e.target.value
     if (filtroSelecionado !== 'todos') {
       setSelectedFilter(filtroSelecionado)
-      produtosFiltrados = produtos.filter(
+      const produtosAposFiltro = produtos.filter(
         (produto) => produto.categoria == filtroSelecionado,
       )
+      setProdutosFiltrados(produtosAposFiltro)
     } else {
       setSelectedFilter(filtroSelecionado)
-      produtosFiltrados = produtos
+      setProdutosFiltrados(produtos)
     }
-    console.log(produtosFiltrados)
   }
 
   return (
