@@ -7,11 +7,12 @@ import {
 } from '@heroicons/react/24/solid'
 import Image from 'next/image'
 import Link from 'next/link'
+import HeaderMenu from './headermenu'
 
 export default function Header() {
   return (
     <header className="mb-6 bg-sky-600">
-      <nav className="container mx-auto flex h-24 max-w-6xl items-center">
+      <nav className="container mx-auto flex h-20 max-w-6xl items-center p-4 lg:p-2">
         <div className="flex shrink-0">
           <Link href="/home">
             <Image
@@ -22,12 +23,12 @@ export default function Header() {
             ></Image>
           </Link>
         </div>
-        <ul className="invisible ml-auto flex md:visible">
+        <ul className="invisible ml-auto flex lg:visible">
           <li>
-            <div className="p-3">
+            <div className="p-2">
               <Link href="/home">
                 <div className="group flex flex-col items-center">
-                  <HomeIcon className="size-8 text-white group-hover:text-stone-800" />
+                  <HomeIcon className="size-7 text-white group-hover:text-stone-800" />
                   <h2 className="text-white group-hover:text-stone-800">
                     Home
                   </h2>
@@ -36,10 +37,10 @@ export default function Header() {
             </div>
           </li>
           <li>
-            <div className="p-3">
+            <div className="p-2">
               <Link href="/produtos">
                 <div className="group flex flex-col items-center">
-                  <LightBulbIcon className="size-8 text-white group-hover:text-stone-800" />
+                  <LightBulbIcon className="size-7 text-white group-hover:text-stone-800" />
                   <h2 className="text-white group-hover:text-stone-800">
                     Produtos
                   </h2>
@@ -48,10 +49,10 @@ export default function Header() {
             </div>
           </li>
           <li>
-            <div className="p-3">
+            <div className="p-2">
               <Link href="/sobre">
                 <div className="group flex flex-col items-center">
-                  <SparklesIcon className="size-8 text-white group-hover:text-stone-800" />
+                  <SparklesIcon className="size-7 text-white group-hover:text-stone-800" />
                   <h2 className="text-white group-hover:text-stone-800">
                     Sobre
                   </h2>
@@ -60,10 +61,10 @@ export default function Header() {
             </div>
           </li>
           <li>
-            <div className="p-3">
+            <div className="p-2">
               <Link href="/assistencia">
                 <div className="group flex flex-col items-center">
-                  <WrenchScrewdriverIcon className="size-8 text-white group-hover:text-stone-800" />
+                  <WrenchScrewdriverIcon className="size-7 text-white group-hover:text-stone-800" />
                   <h2 className="text-white group-hover:text-stone-800">
                     Assistência
                   </h2>
@@ -72,10 +73,10 @@ export default function Header() {
             </div>
           </li>
           <li>
-            <div className="p-3">
+            <div className="p-2">
               <Link href="contatos">
                 <div className="group flex flex-col items-center">
-                  <EnvelopeIcon className="size-8 text-white group-hover:text-stone-800" />
+                  <EnvelopeIcon className="size-7 text-white group-hover:text-stone-800" />
                   <h2 className="text-white group-hover:text-stone-800">
                     Contatos
                   </h2>
@@ -84,6 +85,9 @@ export default function Header() {
             </div>
           </li>
         </ul>
+        <div className="lg:invisible">
+          <HeaderMenu />
+        </div>
       </nav>
     </header>
   )
