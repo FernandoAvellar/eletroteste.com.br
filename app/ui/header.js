@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className="mb-6 bg-sky-600">
       <nav className="container mx-auto flex h-24 max-w-6xl items-center">
-        <div>
+        <div className="flex shrink-0">
           <Link href="/home">
             <Image
               src="/logo.png"
@@ -22,7 +22,7 @@ export default function Header() {
             ></Image>
           </Link>
         </div>
-        <ul className="ml-auto flex">
+        <ul className="invisible ml-auto flex md:visible">
           <li>
             <div className="p-3">
               <Link href="/home">

@@ -9,14 +9,14 @@ export default function ProdutosPage() {
 
   function handleFilterChange(e) {
     const filtroSelecionado = e.target.value
+    setSelectedFilter(filtroSelecionado)
+
     if (filtroSelecionado !== 'todos') {
-      setSelectedFilter(filtroSelecionado)
       const produtosAposFiltro = produtos.filter(
         (produto) => produto.categoria == filtroSelecionado,
       )
       setProdutosFiltrados(produtosAposFiltro)
     } else {
-      setSelectedFilter(filtroSelecionado)
       setProdutosFiltrados(produtos)
     }
   }
@@ -83,7 +83,7 @@ export default function ProdutosPage() {
           </label>
         </div>
       </div>
-      <div className="container mx-auto grid max-w-6xl grid-cols-3 gap-6 ">
+      <div className="container mx-auto grid max-w-6xl gap-6 md:grid-cols-3 ">
         {produtosFiltrados.map((produto) => {
           return <Produto key={produto.id} produto={produto} />
         })}

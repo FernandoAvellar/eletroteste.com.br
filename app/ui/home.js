@@ -4,8 +4,8 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main>
-      <div className="container mx-auto grid max-w-6xl grid-cols-3 gap-6">
-        <div className="col-span-3 row-span-2 overflow-hidden rounded-lg">
+      <div className="container mx-auto grid max-w-6xl gap-6 md:grid-cols-3">
+        <div className="overflow-hidden rounded-lg md:col-span-3 md:row-span-2">
           <Image
             src="/jumbotron.jpg"
             width={1200}

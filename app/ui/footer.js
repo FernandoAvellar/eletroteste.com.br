@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Footer() {
   return (
     <footer className="mt-6 bg-sky-600">
-      <div className="container mx-auto grid max-w-6xl grid-cols-4 gap-6">
+      <div className="container mx-auto grid max-w-6xl justify-center gap-6 md:grid-cols-4">
         <div className="flex flex-col gap-2 py-4 text-xs text-white">
           <strong className="text-sm">Contatos:</strong>
           <span>(35)3471-2123</span>
