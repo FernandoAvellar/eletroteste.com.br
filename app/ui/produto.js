@@ -2,13 +2,13 @@ import Image from 'next/image'
 
 export default function Produto({ produto }) {
   return (
-    <div className="overflow-hidden rounded border-4 border-solid border-white bg-white px-1">
+    <div className="overflow-hidden rounded border-4 border-solid border-white bg-white">
       <Image
         className="mb-2 w-full"
         src={produto.imagemRef}
         width={350}
         height={254}
-        alt="Imagem de produto"
+        alt="Imagem do produto"
       ></Image>
       <h3 className="mb-2 text-left text-2xl">{produto.titulo}</h3>
       <h4 className="mb-2 text-left font-normal">{`Mod:(${produto.modelo})`}</h4>
