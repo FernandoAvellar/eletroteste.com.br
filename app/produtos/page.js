@@ -24,7 +24,7 @@ export default function ProdutosPage() {
   return (
     <div>
       <div className="container mx-auto flex w-auto max-w-6xl flex-row items-center justify-center gap-4">
-        <div className="mb-4 flex flex-col items-start gap-1 align-bottom md:flex-row md:items-center">
+        <div className="mb-4 flex flex-col gap-1 md:flex-row md:items-center">
           <p className="text-md font-normal md:align-middle md:text-xl md:font-semibold">
             Filtro:
           </p>
@@ -82,6 +82,17 @@ export default function ProdutosPage() {
               className="size-4 md:size-5"
             ></input>
             <span className="ml-1 text-gray-900">Cargas</span>
+          </label>
+          <label className="md:text-md inline-flex items-center text-sm md:font-medium">
+            <input
+              type="radio"
+              name="filtro"
+              value="hipot"
+              checked={selectedFilter === 'hipot'}
+              onChange={handleFilterChange}
+              className="size-4 md:size-5"
+            ></input>
+            <span className="ml-1 text-gray-900">Hipot</span>
           </label>
         </div>
       </div>
