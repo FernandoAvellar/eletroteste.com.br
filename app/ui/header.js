@@ -4,15 +4,15 @@ import {
   SparklesIcon,
   WrenchScrewdriverIcon,
   EnvelopeIcon,
+  Bars4Icon,
 } from '@heroicons/react/24/solid'
 import Image from 'next/image'
 import Link from 'next/link'
-import HeaderMenu from './headermenu'
 
 export default function Header() {
   return (
-    <header className="mb-6 bg-sky-600">
-      <nav className="container mx-auto flex h-20 max-w-6xl items-center p-4 lg:p-2">
+    <header className="mb-4 bg-sky-600 p-4">
+      <nav className="container relative mx-auto flex h-20 w-auto max-w-6xl items-center">
         <div className="flex shrink-0">
           <Link href="/home">
             <Image
@@ -23,7 +23,7 @@ export default function Header() {
             ></Image>
           </Link>
         </div>
-        <ul className="invisible ml-auto flex lg:visible">
+        <ul className="invisible absolute right-0 flex md:visible">
           <li>
             <div className="p-2">
               <Link href="/home">
@@ -85,10 +85,73 @@ export default function Header() {
             </div>
           </li>
         </ul>
-        <div className="lg:invisible">
-          <HeaderMenu />
+        <div className="absolute right-0 md:invisible">
+          <div>
+            <button
+              type="button"
+              className="rounded-md bg-sky-600 px-3 py-2 shadow-sm ring-2 ring-inset ring-white/70 hover:bg-sky-700 hover:ring-white/90"
+            >
+              <Bars4Icon className="size-6" />
+            </button>
+          </div>
         </div>
       </nav>
     </header>
   )
 }
+
+/* export default function HeaderMenu() {
+  return (
+    <div className="relative inline-block text-left">
+      <div>
+        <div className="py-1" role="none">
+          <a
+            href="#"
+            className="block px-4 py-2 text-sm text-gray-700"
+            role="menuitem"
+            tabindex="-1"
+            id="menu-item-0"
+          >
+            Home
+          </a>
+          <a
+            href="#"
+            className="block px-4 py-2 text-sm text-gray-700"
+            role="menuitem"
+            tabindex="-1"
+            id="menu-item-1"
+          >
+            Produtos
+          </a>
+          <a
+            href="#"
+            className="block px-4 py-2 text-sm text-gray-700"
+            role="menuitem"
+            tabindex="-1"
+            id="menu-item-2"
+          >
+            Sobre
+          </a>
+          <a
+            href="#"
+            className="block px-4 py-2 text-sm text-gray-700"
+            role="menuitem"
+            tabindex="-1"
+            id="menu-item-2"
+          >
+            Assistência
+          </a>
+          <a
+            href="#"
+            className="block px-4 py-2 text-sm text-gray-700"
+            role="menuitem"
+            tabindex="-1"
+            id="menu-item-2"
+          >
+            Contatos
+          </a>
+        </div>
+      </div>
+    </div>
+  )
+} */
