@@ -24,10 +24,7 @@ export default function ProdutosPage() {
   return (
     <div>
       <div className="container mx-auto flex w-auto max-w-6xl flex-row items-center justify-center gap-4">
-        <div className="mb-4 flex flex-col gap-1 md:flex-row md:items-center">
-          <p className="text-md font-normal md:align-middle md:text-xl md:font-semibold">
-            Filtro:
-          </p>
+        <div className="mb-2 flex flex-col gap-1 md:mb-6 md:flex-row md:items-center md:gap-4">
           <label className="md:text-md inline-flex items-center text-sm md:font-medium">
             <input
               type="radio"
@@ -96,7 +93,7 @@ export default function ProdutosPage() {
           </label>
         </div>
       </div>
-      <div className="container mx-auto grid max-w-6xl gap-6 md:grid-cols-3 ">
+      <div className="container mx-auto grid max-w-6xl gap-6 p-2 md:grid-cols-3 md:p-0 ">
         {produtosFiltrados.map((produto) => {
           return <Produto key={produto.id} produto={produto} />
         })}
