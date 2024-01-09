@@ -89,7 +89,7 @@ export default function Footer() {
           <span>Santa Rita do Sapucaí - MG</span>
           <span>37540-000</span>
         </div>
-        <div className="flex flex-col gap-2 py-8 pt-0 text-center text-xs text-white md:py-1 md:text-left">
+        <div className="flex flex-col gap-2 py-1 pt-0 text-center text-xs text-white md:py-1 md:text-left">
           <strong className="text-sm">Horário de funcionamento:</strong>
           <span className="underline">Segunda-feira a quinta-feira:</span>
           <span>07:00h às 12:00h - 13:25h às 17:25h</span>
@@ -97,7 +97,7 @@ export default function Footer() {
           <span>07:00h às 12:00h - 13:25h às 16:25h</span>
         </div>
       </div>
-      <div className="py-2 text-center text-sm text-white">
+      <div className="py-1 text-center text-sm text-white md:py-2">
         &copy;Copyright Eletroteste Ind. e Com. LTDA
       </div>
     </footer>
