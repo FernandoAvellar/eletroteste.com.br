@@ -15,7 +15,7 @@ export default function ContatosPage() {
           ></Image>
           <h3 className="mb-2 text-left text-2xl">Telefones</h3>
           <div>
-            <p>Estamos prontos para atendê-los:</p>
+            <p>Estamos prontos para atendê-lo:</p>
             <Link
               className="text-sm text-blue-500 hover:text-sky-700 hover:underline"
               href="tel: 03534712123"
@@ -33,7 +33,16 @@ export default function ContatosPage() {
               className="text-sm text-blue-500 hover:text-sky-700 hover:underline"
               target="_blank"
             >
-              <p>(35) 98805-4435 (WhatsApp)</p>
+              <div className="flex flex-row items-center">
+                <p>(35) 98805-4435</p>
+                <Image
+                  className="ml-2 size-5"
+                  src="/whatsapp.png"
+                  width={31}
+                  height={31}
+                  alt="Imagem"
+                ></Image>
+              </div>
             </Link>
           </div>
         </div>
@@ -67,7 +76,7 @@ export default function ContatosPage() {
             </Link>
             <br></br>
             <br></br>
-            <p>Caso queira enviar seu Curriculo:</p>
+            <p>Caso queira enviar seu currículo:</p>
             <Link
               href="mailto:rheletro@eletroteste.com.br"
               className="text-sm text-blue-500 hover:text-sky-700 hover:underline"
@@ -92,7 +101,6 @@ export default function ContatosPage() {
                 target="_blank"
                 className="text-sm text-blue-500 hover:text-sky-700 hover:underline"
               >
-                <br></br>
                 <p>
                   Rua José Pinto Vilela, 474 - Centro - Santa Rita do Sapucaí -
                   MG - CEP: 37540-000
