@@ -1,7 +1,36 @@
+import Image from 'next/image'
+
 export default function SobrePage() {
   return (
     <>
-      <div className="container mx-auto flex max-w-6xl flex-col items-center justify-center p-4">
+      <div className="container mx-auto flex max-w-6xl flex-col items-center justify-center">
+        <div className="flex h-full max-w-6xl items-center justify-between gap-8 p-8">
+          <div>
+            <Image
+              src="/feitonobrasil.png"
+              width={300}
+              height={225}
+              alt="Imagem"
+            ></Image>
+          </div>
+          <div>
+            <Image
+              src="/iso9000.png"
+              width={250}
+              height={250}
+              alt="Imagem"
+            ></Image>
+          </div>
+          <div>
+            <Image
+              className="overflow-hidden rounded-2xl"
+              src="/sindvel.png"
+              width={300}
+              height={225}
+              alt="Imagem"
+            ></Image>
+          </div>
+        </div>
         <div className="flex h-10 w-full items-center justify-center rounded bg-sky-600">
           <p className="text-lg font-medium text-white">A EMPRESA</p>
         </div>
@@ -13,7 +42,7 @@ export default function SobrePage() {
           </p>
           <br></br>
           <p>
-            Sempre atenta às novas tecnologias e tomando as diversas normas
+            Sempre atenta as novas tecnologias e tomando as diversas normas
             (IEC, ABNT, ASTM, JIS, UNE, BS, CEI, VDE, etc.) como ponto de
             referência, desenvolve e produz instrumentos de precisão para
             análise da operação de:
