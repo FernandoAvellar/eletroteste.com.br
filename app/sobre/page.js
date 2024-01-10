@@ -64,6 +64,7 @@ export default function SobrePage() {
             alimentação AC e DC para laboratórios.
           </p>
         </div>
+        <br></br>
         <div className="flex h-10 w-full items-center justify-center rounded bg-sky-600">
           <p className="text-lg font-medium text-white">MISSÃO</p>
         </div>
@@ -75,8 +76,8 @@ export default function SobrePage() {
             de aperfeiçoamento contínuo de seus produtos e desenvolvimento
             sustentável.&quot;
           </p>
-          <br></br>
         </div>
+        <br></br>
         <div className="flex h-10 w-full items-center justify-center rounded bg-sky-600">
           <p className="text-lg font-medium text-white">VISÃO</p>
         </div>
@@ -87,8 +88,8 @@ export default function SobrePage() {
             elétrica e controle de qualidade tendo como compromisso o bom
             relacionamento com seus colaboradores e clientes.&quot;
           </p>
-          <br></br>
         </div>
+        <br></br>
         <div className="flex h-10 w-full items-center justify-center rounded bg-sky-600">
           <p className="text-lg font-medium text-white">VALORES</p>
         </div>
@@ -97,8 +98,8 @@ export default function SobrePage() {
             &quot;Respeito, Dedicação e Responsabilidade são os princípios que
             regem a ELETROTESTE.&quot;
           </p>
-          <br></br>
         </div>
+        <br></br>
         <div className="flex h-10 w-full items-center justify-center rounded bg-sky-600">
           <p className="text-lg font-medium text-white">
             POLÍTICA DA QUALIDADE
@@ -112,8 +113,8 @@ export default function SobrePage() {
             clientes e colaboradores, inovação constante e sustentabilidade nos
             negócios.&quot;
           </p>
-          <br></br>
         </div>
+        <br></br>
         <div className="flex h-10 w-full items-center justify-center rounded bg-sky-600">
           <p className="text-lg font-medium text-white">DESENVOLVIMENTO</p>
         </div>
@@ -124,8 +125,8 @@ export default function SobrePage() {
             circuitos analógicos, lineares e placas de hardwares, todos
             desenvolvidos e programados pela ELETROTESTE.
           </p>
-          <br></br>
         </div>
+        <br></br>
         <div className="flex h-10 w-full items-center justify-center rounded bg-sky-600">
           <p className="text-lg font-medium text-white">
             CONTROLE DE QUALIDADE
@@ -151,8 +152,8 @@ export default function SobrePage() {
             nossos produtos são de alta qualidade e rastreados por órgãos
             qualificados.
           </p>
-          <br></br>
         </div>
+        <br></br>
       </div>
     </>
   )

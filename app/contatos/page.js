@@ -49,7 +49,7 @@ export default function ContatosPage() {
         <div className="overflow-hidden rounded border-4 border-solid border-white bg-white p-4">
           <Image
             className="mb-4 w-full"
-            src="/contato_email.jpg"
+            src="/contato_endereco.jpg"
             width={350}
             height={254}
             alt="Imagem"
@@ -88,7 +88,7 @@ export default function ContatosPage() {
         <div className="overflow-hidden rounded border-4 border-solid border-white bg-white p-4">
           <Image
             className="mb-4 w-full"
-            src="/contato_endereco.jpg"
+            src="/contato_email.jpg"
             width={350}
             height={254}
             alt="Imagem"
@@ -103,7 +103,7 @@ export default function ContatosPage() {
               >
                 <p>
                   Rua José Pinto Vilela, 474 - Centro - Santa Rita do Sapucaí -
-                  MG - CEP: 37540-000
+                  MG - CEP: 37536-094
                 </p>
               </Link>
             </div>

@@ -40,7 +40,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="relative mx-auto w-fit overflow-hidden rounded-lg border-4 border-solid border-gray-50 shadow-md">
+        <div className="relative mx-auto w-fit overflow-hidden rounded-lg">
           <div className="absolute bottom-0 w-full bg-gray-900/80 text-center text-xl tracking-wide text-white">
             <span>LOCALIZAÇÃO</span>
           </div>
