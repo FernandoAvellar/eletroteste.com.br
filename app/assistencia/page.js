@@ -8,7 +8,7 @@ export default function AssistenciaPage() {
           PROCEDIMENTOS PARA MANUTENÇÃO/CALIBRAÇÃO
         </p>
       </div>
-      <div className="h-fill flex w-full flex-col items-start rounded bg-white p-4 text-sm text-gray-900">
+      <div className="h-fill flex w-full flex-col items-start rounded bg-white pl-4 pt-4 text-sm text-gray-900">
         <p className="mb-1 font-semibold underline">
           Formas de entrar em contato com a Assistência Técnica:
         </p>
@@ -43,7 +43,6 @@ export default function AssistenciaPage() {
             Para agilizar o processo de análise, favor seguir as recomendações
             abaixo:
           </p>
-          <br></br>
           <ol className="list-decimal p-4">
             <li>
               Enviar o equipamento em embalagem <u>adequada e segura</u> para
@@ -71,7 +70,7 @@ export default function AssistenciaPage() {
           </ol>
         </div>
       </div>
-      <div className="h-fill flex w-full flex-col items-start rounded bg-white p-4 text-sm text-gray-900">
+      <div className="h-fill flex w-full flex-col items-start rounded bg-white pl-4 text-sm text-gray-900">
         <p className="mb-1 font-semibold underline">Dados da empresa:</p>
         <p>
           <u>Razão Social:</u> Eletroteste Indústria e Comércio Ltda.
