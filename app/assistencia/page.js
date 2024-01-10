@@ -4,7 +4,7 @@ export default function AssistenciaPage() {
   return (
     <div className="container mx-auto flex max-w-6xl flex-col items-center justify-center p-4">
       <div className="flex h-10 w-full items-center justify-center rounded bg-sky-600">
-        <p className="ml-2 font-medium text-white">
+        <p className="text-xs font-medium text-white md:text-lg">
           PROCEDIMENTOS PARA MANUTENÇÃO/CALIBRAÇÃO
         </p>
       </div>
@@ -32,9 +32,10 @@ export default function AssistenciaPage() {
         </p>
         <p>
           Devido a legislação vigente, favor enviar o equipamento com uma nota
-          fiscal de "Remessa para Conserto" ou uma "Declaração/Carta Fiscal" no
-          caso de sua empresa estar isenta de emitir nota fiscal, mencionando
-          que o equipamento segue para conserto com posterior retorno.
+          fiscal de &quot;Remessa para Conserto&quot; ou uma
+          &quot;Declaração/Carta Fiscal&quot; no caso de sua empresa estar
+          isenta de emitir nota fiscal, mencionando que o equipamento segue para
+          conserto com posterior retorno.
         </p>
         <br></br>
         <div>
@@ -58,11 +59,11 @@ export default function AssistenciaPage() {
               dos seguintes dados abaixo:
               <ul className="list-none text-start">
                 <li>
-                  CFOP = 5.915 – Remessa para conserto (empresa dentro do estado
+                  CFOP = 5.915: Remessa para conserto (empresa dentro do estado
                   de Minas Gerais)
                 </li>
                 <li>
-                  CFOP = 6.915 – Remessa para conserto (empresa situada fora do
+                  CFOP = 6.915: Remessa para conserto (empresa situada fora do
                   estado Minas Gerais)
                 </li>
               </ul>
@@ -80,7 +81,7 @@ export default function AssistenciaPage() {
           <u>Insc. Estadual:</u>
           596.581.1550090
           <br></br>
-          <u>Endereço:</u> Rua José Pinto Vilela, 474 – Centro. CEP: 37.540-000
+          <u>Endereço:</u> Rua José Pinto Vilela, 474: Centro. CEP: 37.540-000
           Santa Rita do Sapucaí - MG
         </p>
       </div>
@@ -96,7 +97,7 @@ export default function AssistenciaPage() {
         <p>
           Não temos um preço fixo de reparo dos produtos, cada caso é analisado
           individualmente e o orçamento é feito de acordo com os defeitos
-          diagnosticados.{' '}
+          diagnosticados. &nbsp;
           <u>
             Nenhum serviço será executado sem a aprovação prévia do cliente.
           </u>
