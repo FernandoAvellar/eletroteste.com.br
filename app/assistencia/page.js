@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function AssistenciaPage() {
   return (
-    <div className="container mx-auto flex max-w-6xl flex-col items-center justify-center p-4">
+    <div className="container mx-auto -mt-2 flex max-w-6xl flex-col items-center justify-center p-4 md:-mt-4 md:p-8 lg:-mt-8 lg:p-12">
       <div className="flex h-10 w-full items-center justify-center rounded bg-sky-600">
         <p className="text-xs font-medium text-white md:text-lg">
           PROCEDIMENTOS PARA MANUTENÇÃO/CALIBRAÇÃO

@@ -3,8 +3,8 @@ import Image from 'next/image'
 export default function SobrePage() {
   return (
     <>
-      <div className="container mx-auto flex max-w-6xl flex-col items-center justify-center">
-        <div className="flex h-full max-w-6xl items-center justify-between gap-8 p-8">
+      <div className="container mx-auto flex max-w-6xl flex-col items-center justify-center p-8 md:p-12">
+        <div className="-mt-8 mb-2 flex h-full max-w-6xl items-center justify-between gap-8 md:-mt-12 md:gap-16 lg:gap-28">
           <div>
             <Image
               src="/feitonobrasil.png"
@@ -153,7 +153,6 @@ export default function SobrePage() {
             qualificados.
           </p>
         </div>
-        <br></br>
       </div>
     </>
   )

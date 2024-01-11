@@ -12,7 +12,7 @@ import DropDropDownMenu from './dropdownmenu'
 
 export default function Header() {
   return (
-    <header className="mb-4 bg-sky-600 p-4">
+    <header className="mb-2 bg-sky-600 p-4">
       <nav className="container relative mx-auto flex h-20 w-auto max-w-6xl items-center">
         <div className="flex shrink-0">
           <Link href="/home">
