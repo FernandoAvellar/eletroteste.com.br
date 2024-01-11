@@ -24,7 +24,7 @@ export default function ProdutosPage() {
   return (
     <div>
       <div className="container mx-auto flex w-auto max-w-6xl flex-row items-center justify-center gap-4">
-        <div className="flex flex-col gap-1 md:mb-3 md:flex-row md:items-center md:gap-2">
+        <div className="flex flex-col gap-2">
           <label className="md:text-md inline-flex items-center text-sm md:font-medium">
             <input
               type="radio"
@@ -40,12 +40,12 @@ export default function ProdutosPage() {
             <input
               type="radio"
               name="filtro"
-              value="fontes"
-              checked={selectedFilter === 'fontes'}
+              value="oleos"
+              checked={selectedFilter === 'oleos'}
               onChange={handleFilterChange}
               className="size-4 md:size-5"
             ></input>
-            <span className="ml-1 text-gray-900">Fontes</span>
+            <span className="ml-1 text-gray-900">Oleos</span>
           </label>
           <label className="md:text-md inline-flex items-center text-sm md:font-medium">
             <input
@@ -62,34 +62,111 @@ export default function ProdutosPage() {
             <input
               type="radio"
               name="filtro"
-              value="medidores"
-              checked={selectedFilter === 'medidores'}
+              value="bancoResistores"
+              checked={selectedFilter === 'bancoResistores'}
               onChange={handleFilterChange}
               className="size-4 md:size-5"
             ></input>
-            <span className="ml-1 text-gray-900">Medidores</span>
+            <span className="ml-1 text-gray-900">Banco de resistores</span>
           </label>
           <label className="md:text-md inline-flex items-center text-sm md:font-medium">
             <input
               type="radio"
               name="filtro"
-              value="cargas"
-              checked={selectedFilter === 'cargas'}
+              value="medicos"
+              checked={selectedFilter === 'medicos'}
               onChange={handleFilterChange}
               className="size-4 md:size-5"
             ></input>
-            <span className="ml-1 text-gray-900">Cargas</span>
+            <span className="ml-1 text-gray-900">Médicos</span>
           </label>
           <label className="md:text-md inline-flex items-center text-sm md:font-medium">
             <input
               type="radio"
               name="filtro"
-              value="hipot"
-              checked={selectedFilter === 'hipot'}
+              value="isolamento"
+              checked={selectedFilter === 'isolamento'}
               onChange={handleFilterChange}
               className="size-4 md:size-5"
             ></input>
-            <span className="ml-1 text-gray-900">Hipot</span>
+            <span className="ml-1 text-gray-900">Isolamentos</span>
+          </label>
+          <label className="md:text-md inline-flex items-center text-sm md:font-medium">
+            <input
+              type="radio"
+              name="filtro"
+              value="baixaResistencia"
+              checked={selectedFilter === 'baixaResistencia'}
+              onChange={handleFilterChange}
+              className="size-4 md:size-5"
+            />
+            <span className="ml-1 text-gray-900">Baixas resistências</span>
+          </label>
+          <label className="md:text-md inline-flex items-center text-sm md:font-medium">
+            <input
+              type="radio"
+              name="filtro"
+              value="disjuntores"
+              checked={selectedFilter === 'disjuntores'}
+              onChange={handleFilterChange}
+              className="size-4 md:size-5"
+            />
+            <span className="ml-1 text-gray-900">Disjuntores</span>
+          </label>
+          <label className="md:text-md inline-flex items-center text-sm md:font-medium">
+            <input
+              type="radio"
+              name="filtro"
+              value="fasimetros"
+              checked={selectedFilter === 'fasimetros'}
+              onChange={handleFilterChange}
+              className="size-4 md:size-5"
+            />
+            <span className="ml-1 text-gray-900">Fasímetros</span>
+          </label>
+          <label className="md:text-md inline-flex items-center text-sm md:font-medium">
+            <input
+              type="radio"
+              name="filtro"
+              value="motores"
+              checked={selectedFilter === 'motores'}
+              onChange={handleFilterChange}
+              className="size-4 md:size-5"
+            />
+            <span className="ml-1 text-gray-900">Motores</span>
+          </label>
+          <label className="md:text-md inline-flex items-center text-sm md:font-medium">
+            <input
+              type="radio"
+              name="filtro"
+              value="trafo"
+              checked={selectedFilter === 'trafo'}
+              onChange={handleFilterChange}
+              className="size-4 md:size-5"
+            />
+            <span className="ml-1 text-gray-900">Transformadores</span>
+          </label>
+          <label className="md:text-md inline-flex items-center text-sm md:font-medium">
+            <input
+              type="radio"
+              name="filtro"
+              value="reles"
+              checked={selectedFilter === 'reles'}
+              onChange={handleFilterChange}
+              className="size-4 md:size-5"
+            />
+            <span className="ml-1 text-gray-900">Reles</span>
+          </label>
+          <label className="md:text-md inline-flex items-center text-sm md:font-medium">
+            <input
+              type="radio"
+              name="filtro"
+              value="geral"
+              checked={selectedFilter === 'geral'}
+              onChange={handleFilterChange}
+              className="size-4 md:size-5"
+            />
+            <span className="ml-1 text-gray-900">Geral</span>
           </label>
         </div>
       </div>
