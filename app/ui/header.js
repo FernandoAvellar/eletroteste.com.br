@@ -9,8 +9,12 @@ import {
 import Image from 'next/image'
 import Link from 'next/link'
 import DropDropDownMenu from './dropdownmenu'
+import { usePathname } from 'next/navigation'
+import clsx from 'clsx'
 
 export default function Header() {
+  const pathname = usePathname()
+
   return (
     <header className="mb-2 bg-sky-600 p-4">
       <nav className="container relative mx-auto flex h-20 w-auto max-w-6xl items-center">
@@ -25,7 +29,11 @@ export default function Header() {
           </Link>
         </div>
         <ul className="invisible absolute right-0 flex md:visible">
-          <li>
+          <li
+            className={clsx('', {
+              'group bg-sky-700': pathname === '/home',
+            })}
+          >
             <div className="p-2">
               <Link href="/home">
                 <div className="group flex flex-col items-center">
@@ -37,7 +45,11 @@ export default function Header() {
               </Link>
             </div>
           </li>
-          <li>
+          <li
+            className={clsx('', {
+              'bg-sky-700': pathname === '/produtos',
+            })}
+          >
             <div className="p-2">
               <Link href="/produtos">
                 <div className="group flex flex-col items-center">
@@ -49,7 +61,11 @@ export default function Header() {
               </Link>
             </div>
           </li>
-          <li>
+          <li
+            className={clsx('', {
+              'bg-sky-700': pathname === '/sobre',
+            })}
+          >
             <div className="p-2">
               <Link href="/sobre">
                 <div className="group flex flex-col items-center">
@@ -61,7 +77,11 @@ export default function Header() {
               </Link>
             </div>
           </li>
-          <li>
+          <li
+            className={clsx('', {
+              'bg-sky-700': pathname === '/assistencia',
+            })}
+          >
             <div className="p-2">
               <Link href="/assistencia">
                 <div className="group flex flex-col items-center">
@@ -73,7 +93,11 @@ export default function Header() {
               </Link>
             </div>
           </li>
-          <li>
+          <li
+            className={clsx('', {
+              'bg-sky-700': pathname === '/contatos',
+            })}
+          >
             <div className="p-2">
               <Link href="contatos">
                 <div className="group flex flex-col items-center">
