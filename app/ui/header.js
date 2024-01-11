@@ -52,7 +52,7 @@ export default function Header() {
             pathname={pathname}
           />
         </ul>
-        <div className="absolute right-0 md:invisible">
+        <div className="absolute right-0 z-50 md:invisible">
           <div>
             <DropDropDownMenu />
           </div>
