@@ -64,7 +64,7 @@ const produtos = [
     modelo: 'FET',
     imagemRef: '/fet.jpg',
     pdfRef: '/fet.pdf',
-    categoria: 'geral',
+    categoria: 'outros',
     conteudo:
       'Fonte de alimentação CC linear, estabilizada e variável. Possui medidores de precisão integrado. Para uso em laboratório ou com fontes de potencia com alimentação trifásica.',
   },
