@@ -2,7 +2,6 @@
 import Produto from '../ui/produto'
 import { Fragment, useState } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
-import clsx from 'clsx'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
 
 export default function ProdutosPage() {
@@ -34,13 +33,17 @@ export default function ProdutosPage() {
     setSelected(e)
     const catSelecionada = e.cat
     if (catSelecionada !== 'all') {
-      const produtosAposFiltro = produtos.filter(
-        (produto) => produto.categoria === catSelecionada,
-      )
-      setProdutosFiltrados(produtosAposFiltro)
+      setProdutosFiltrados(filtrarPorCategoria(produtos, catSelecionada))
     } else {
       setProdutosFiltrados(produtos)
     }
+  }
+
+  function filtrarPorCategoria(produtos, categoriaSelecionada) {
+    const produtosFiltrados = produtos.filter((produto) => {
+      return produto.categoria.includes(categoriaSelecionada)
+    })
+    return produtosFiltrados
   }
 
   return (
