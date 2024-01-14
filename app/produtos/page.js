@@ -2,7 +2,7 @@
 import Produto from '../ui/produto'
 import { Fragment, useState } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
-import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
+import { ChevronUpDownIcon } from '@heroicons/react/20/solid'
 
 export default function ProdutosPage() {
   const categorias = [
@@ -77,13 +77,9 @@ export default function ProdutosPage() {
                       }
                       value={categoria}
                     >
-                      {({ selected }) => (
-                        <>
-                          <span className="block truncate font-normal">
-                            {categoria.name}
-                          </span>
-                        </>
-                      )}
+                      <span className="block truncate font-normal">
+                        {categoria.name}
+                      </span>
                     </Listbox.Option>
                   ))}
                 </Listbox.Options>
