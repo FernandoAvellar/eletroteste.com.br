@@ -1,9 +1,9 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import DropDropDownMenu from './dropdownmenu'
 import { usePathname } from 'next/navigation'
 import MenuItem from './menuitem'
+import CollapsedMenu from './collapsedmenu'
 
 export default function Header() {
   const pathname = usePathname()
@@ -54,7 +54,7 @@ export default function Header() {
         </ul>
         <div className="absolute right-0 z-50 md:invisible">
           <div>
-            <DropDropDownMenu />
+            <CollapsedMenu />
           </div>
         </div>
       </nav>
