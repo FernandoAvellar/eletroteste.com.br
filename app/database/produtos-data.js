@@ -283,6 +283,26 @@ const produtos = [
   },
 ]
 
+const categorias = [
+  { cat: 'all', name: 'Todos' },
+  { cat: 'baixaResistencia', name: 'Baixas Resistências / SPDA' },
+  { cat: 'bancoResistores', name: 'Banco de Resistores' },
+  { cat: 'medicos', name: 'Médicos' },
+  { cat: 'disjuntores', name: 'Disjuntores' },
+  { cat: 'fasimetros', name: 'Fasímetros' },
+  {
+    cat: 'isolamento',
+    name: 'Isolação elétrica/ Dielétricos/ EPIs e EPCs',
+  },
+  { cat: 'motores', name: 'Motores Elétricos' },
+  { cat: 'oleos', name: 'Óleos Isolantes' },
+  { cat: 'reles', name: 'Reles' },
+  { cat: 'telecom', name: 'Telecomunicações' },
+  { cat: 'trafo', name: 'Transformadores' },
+  { cat: 'outros', name: 'Outros' },
+]
+
 module.exports = {
   produtos,
+  categorias,
 }
