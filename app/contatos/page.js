@@ -57,8 +57,8 @@ export default function ContatosPage() {
           <h3 className="mb-2 text-left text-2xl">Emails</h3>
           <div className="text-left">
             <p>
-              Caso tenha interesse por um de nosssos produtos e/ou gostaria de
-              mais informações:
+              Interesse por um de nosssos produtos e/ou gostaria de mais
+              informações:
             </p>
             <Link
               href="mailto:eletrovendas@eletroteste.com.br"
@@ -67,7 +67,7 @@ export default function ContatosPage() {
               <p>eletrovendas@eletroteste.com.br</p>
             </Link>
             <br></br>
-            <p>Caso seja fornecedor:</p>
+            <p>Fornecedor:</p>
             <Link
               href="mailto:eletrocompras@eletroteste.com.br"
               className="text-sm text-blue-500 hover:text-sky-700 hover:underline"
@@ -76,7 +76,7 @@ export default function ContatosPage() {
             </Link>
             <br></br>
             <br></br>
-            <p>Caso queira enviar seu currículo:</p>
+            <p>Enviar currículo:</p>
             <Link
               href="mailto:rheletro@eletroteste.com.br"
               className="text-sm text-blue-500 hover:text-sky-700 hover:underline"
