@@ -48,16 +48,10 @@ export default function CollapsedMenu() {
                       `${active ? 'bg-sky-500 text-white' : 'text-gray-900'}`
                     }
                   >
-                    {({ selected }) => (
-                      <div
-                        className={`my-1 ml-1 flex flex-row items-center p-2 ${
-                          selected ? 'bg-sky-500 text-white' : 'text-gray-900'
-                        }`}
-                      >
-                        {renderIcon(menu.icon)}
-                        {menu.name}
-                      </div>
-                    )}
+                    <div className="my-1 ml-1 flex flex-row items-center p-2">
+                      {renderIcon(menu.icon)}
+                      {menu.name}
+                    </div>
                   </Listbox.Option>
                 </Link>
               ))}
