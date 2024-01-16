@@ -33,35 +33,35 @@ function renderIcon(name) {
     case 'home':
       return (
         <HomeIcon
-          className="size-7 text-white group-hover:text-stone-800"
+          className="size-6 text-white group-hover:text-stone-800 lg:size-7"
           aria-hidden="true"
         />
       )
     case 'lightbulb':
       return (
         <LightBulbIcon
-          className="size-7 text-white group-hover:text-stone-800"
+          className="size-6 text-white group-hover:text-stone-800 lg:size-7"
           aria-hidden="true"
         />
       )
     case 'sparklesicon':
       return (
         <SparklesIcon
-          className="size-7 text-white group-hover:text-stone-800"
+          className="size-6 text-white group-hover:text-stone-800 lg:size-7"
           aria-hidden="true"
         />
       )
     case 'wrenchscrewdrivericon':
       return (
         <WrenchScrewdriverIcon
-          className="size-7 text-white group-hover:text-stone-800"
+          className="size-6 text-white group-hover:text-stone-800 lg:size-7"
           aria-hidden="true"
         />
       )
     case 'envelopeicon':
       return (
         <EnvelopeIcon
-          className="size-7 text-white group-hover:text-stone-800"
+          className="size-6 text-white group-hover:text-stone-800 lg:size-7"
           aria-hidden="true"
         />
       )
