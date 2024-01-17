@@ -4,8 +4,8 @@ import Link from 'next/link'
 export default function ContatosPage() {
   return (
     <>
-      <div className="container mx-auto grid max-w-6xl gap-6 md:grid-cols-3 md:p-0">
-        <div className="overflow-hidden rounded border-4 border-solid border-white bg-white p-4">
+      <div className="container mx-auto grid max-w-6xl gap-4 md:grid-cols-3">
+        <div className="overflow-hidden rounded-lg bg-white p-2">
           <Image
             className="mb-4 w-full"
             src="/contato_telefone.jpg"
@@ -46,7 +46,7 @@ export default function ContatosPage() {
             </Link>
           </div>
         </div>
-        <div className="overflow-hidden rounded border-4 border-solid border-white bg-white p-4">
+        <div className="overflow-hidden rounded-lg bg-white p-2">
           <Image
             className="mb-4 w-full"
             src="/contato_email.jpg"
@@ -125,7 +125,7 @@ export default function ContatosPage() {
             </div>
           </div>
         </div>
-        <div className="overflow-hidden rounded border-4 border-solid border-white bg-white p-4">
+        <div className="overflow-hidden rounded-lg bg-white p-2">
           <Image
             className="mb-4 w-full"
             src="/contato_endereco.jpg"
