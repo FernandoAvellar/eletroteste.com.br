@@ -36,7 +36,7 @@ export default function ContatosPage() {
               <div className="flex flex-row items-center">
                 <p>(35) 98805-4435</p>
                 <Image
-                  className="ml-2 size-5"
+                  className="ml-1 size-5"
                   src="/whatsapp.png"
                   width={31}
                   height={31}
@@ -49,7 +49,7 @@ export default function ContatosPage() {
         <div className="overflow-hidden rounded border-4 border-solid border-white bg-white p-4">
           <Image
             className="mb-4 w-full"
-            src="/contato_endereco.jpg"
+            src="/contato_email.jpg"
             width={350}
             height={254}
             alt="Imagem"
@@ -83,12 +83,52 @@ export default function ContatosPage() {
             >
               <p>rheletro@eletroteste.com.br</p>
             </Link>
+            <br></br>
+            <p>Nossas redes sociais:</p>
+            <div className="flex flex-row items-start justify-start p-1">
+              <Link
+                href="https://www.facebook.com/eletrotestebrasil"
+                target="_blank"
+                className="hover:scale-102 transition duration-700 ease-in-out hover:-translate-y-1"
+              >
+                <Image
+                  src="/facebook.png"
+                  alt='alt="Logo do Facebook'
+                  width={31}
+                  height={31}
+                ></Image>
+              </Link>
+              <Link
+                href="https://www.instagram.com/eletroteste/"
+                target="_blank"
+                className="hover:scale-102 mx-4 transition duration-700 ease-in-out hover:-translate-y-1"
+              >
+                <Image
+                  src="/instagram.png"
+                  alt='alt="Logo do Instagram'
+                  width={31}
+                  height={31}
+                ></Image>
+              </Link>
+              <Link
+                href="https://www.linkedin.com/company/eletrotestebrasil"
+                target="_blank"
+                className="hover:scale-102 transition duration-700 ease-in-out hover:-translate-y-1"
+              >
+                <Image
+                  src="/linkedin.png"
+                  alt='alt="Logo do Linkedin'
+                  width={31}
+                  height={31}
+                ></Image>
+              </Link>
+            </div>
           </div>
         </div>
         <div className="overflow-hidden rounded border-4 border-solid border-white bg-white p-4">
           <Image
             className="mb-4 w-full"
-            src="/contato_email.jpg"
+            src="/contato_endereco.jpg"
             width={350}
             height={254}
             alt="Imagem"
