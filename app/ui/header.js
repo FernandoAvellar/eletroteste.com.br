@@ -20,7 +20,7 @@ export default function Header() {
             ></Image>
           </Link>
         </div>
-        <ul className="invisible absolute right-0 flex md:visible">
+        <ul className="absolute right-0 hidden md:flex">
           <MenuItem
             href="/home"
             iconName="home"
@@ -52,7 +52,7 @@ export default function Header() {
             pathname={pathname}
           />
         </ul>
-        <div className="absolute right-0 z-50 md:invisible">
+        <div className="absolute right-0 z-50 md:hidden">
           <div>
             <CollapsedMenu />
           </div>
