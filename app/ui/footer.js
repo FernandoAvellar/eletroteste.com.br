@@ -22,7 +22,7 @@ export default function Footer() {
               height={31}
             ></Image>
             <span className="ml-2 text-xs underline">
-              Fale conosco no Whatsapp
+              Fale conosco no WhatsApp
             </span>
           </Link>
           <div className="flex flex-row items-center justify-center lg:justify-start">

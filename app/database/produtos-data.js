@@ -296,7 +296,7 @@ const categorias = [
   },
   { cat: 'motores', name: 'Motores Elétricos' },
   { cat: 'oleos', name: 'Óleos Isolantes' },
-  { cat: 'reles', name: 'Reles' },
+  { cat: 'reles', name: 'Relés' },
   { cat: 'telecom', name: 'Telecomunicações' },
   { cat: 'trafo', name: 'Transformadores' },
   { cat: 'outros', name: 'Outros' },

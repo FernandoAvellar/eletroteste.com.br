@@ -46,11 +46,11 @@ export default function AssistenciaPage() {
           <ol className="list-decimal p-4">
             <li>
               Enviar o equipamento em embalagem <u>adequada e segura</u> para
-              evitar danos no transporte;
+              evitar danos no transporte.
             </li>
             <li>
               Enviar junto com o equipamento a descrição do defeito apresentado
-              e os dados do responsável pelo envio (nome, telefone e e-mail);
+              e os dados do responsável pelo envio (nome, telefone e e-mail).
             </li>
             <li>O frete de ida e volta será por conta do cliente.</li>
             <li>
@@ -59,11 +59,11 @@ export default function AssistenciaPage() {
               <ul className="list-none text-start">
                 <li>
                   CFOP = 5.915: Remessa para conserto (empresa dentro do estado
-                  de Minas Gerais)
+                  de Minas Gerais).
                 </li>
                 <li>
                   CFOP = 6.915: Remessa para conserto (empresa situada fora do
-                  estado Minas Gerais)
+                  estado Minas Gerais).
                 </li>
               </ul>
             </li>
@@ -78,9 +78,9 @@ export default function AssistenciaPage() {
           <u>CNPJ:</u> 25.390.832/0001-92
           <br></br>
           <u>Insc. Estadual:</u>
-          596.581.1550090
+          &nbsp; 596.581.1550090
           <br></br>
-          <u>Endereço:</u> Rua José Pinto Vilela, 474: Centro. CEP: 37.540-000
+          <u>Endereço:</u> Rua José Pinto Vilela, 474: Centro. CEP: 37.536-094 -
           Santa Rita do Sapucaí - MG
         </p>
       </div>

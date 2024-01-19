@@ -54,7 +54,7 @@ export default function ContatosPage() {
             height={254}
             alt="Imagem"
           ></Image>
-          <h3 className="mb-2 text-left text-2xl">Emails</h3>
+          <h3 className="mb-2 text-left text-2xl">E-mails</h3>
           <div className="text-left">
             <p>
               Interesse por um de nosssos produtos e/ou gostaria de mais
