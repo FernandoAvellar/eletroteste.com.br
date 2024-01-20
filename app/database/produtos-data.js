@@ -3,7 +3,7 @@ const produtos = [
     id: '01',
     titulo: 'Carga artificial ou Carga fantasma',
     modelo: 'PHL-03',
-    imagemRef: '/phl03.jpg',
+    imagemRef: '/phl03.png',
     pdfRef: '/phl03.pdf',
     categoria: ['reles'],
     conteudo:
@@ -13,7 +13,7 @@ const produtos = [
     id: '02',
     titulo: 'Carga resistiva',
     modelo: 'CR-77',
-    imagemRef: '/cr77.jpg',
+    imagemRef: '/cr77.png',
     pdfRef: '/cr77.pdf',
     categoria: ['bancoResistores'],
     conteudo: 'Cargas puramente resistivas cosFi=0°: 70A X 120V e 140A X 60V.',
@@ -42,7 +42,7 @@ const produtos = [
     id: '05',
     titulo: 'Contador de tempo / Cronômetro',
     modelo: 'ET-42W',
-    imagemRef: '/et42w.jpg',
+    imagemRef: '/et42w.png',
     pdfRef: '/et42w.pdf',
     categoria: ['disjuntores'],
     conteudo:
@@ -82,7 +82,7 @@ const produtos = [
     id: '09',
     titulo: 'Ground bond test',
     modelo: 'EGB-2530',
-    imagemRef: '/egb2530.jpg',
+    imagemRef: '/egb2530.png',
     pdfRef: '/egb2530.pdf',
     categoria: ['medicos'],
     conteudo:
@@ -102,7 +102,7 @@ const produtos = [
     id: '11',
     titulo: 'Hipot CA',
     modelo: 'EH-510P',
-    imagemRef: '/eh510p.jpg',
+    imagemRef: '/eh510p.png',
     pdfRef: '/eh510p.pdf',
     categoria: ['isolamento', 'medicos', 'telecom', 'motores'],
     conteudo:
@@ -139,7 +139,7 @@ const produtos = [
     id: '15',
     titulo: 'Hipot CC',
     modelo: 'EH-6005C',
-    imagemRef: '/eh6005c.jpg',
+    imagemRef: '/eh6005c.png',
     pdfRef: '/eh6005c.pdf',
     categoria: ['isolamento'],
     conteudo: 'Fonte de alta tensão CC 50KV/5mA ou 60KV/5mA.',
@@ -157,7 +157,7 @@ const produtos = [
     id: '17',
     titulo: 'Medidor de ângulo de fase / Fasímetro',
     modelo: 'MA-360',
-    imagemRef: '/ma360.jpg',
+    imagemRef: '/ma360.png',
     pdfRef: '/ma360.pdf',
     categoria: ['fasimetros'],
     conteudo:
@@ -167,7 +167,7 @@ const produtos = [
     id: '18',
     titulo: 'Medidor de corrente de fuga CC',
     modelo: 'MCF-01',
-    imagemRef: '/mcf01.jpg',
+    imagemRef: '/mcf01.png',
     pdfRef: '/mcf01.pdf',
     categoria: ['telecom'],
     conteudo:
@@ -187,7 +187,7 @@ const produtos = [
     id: '20',
     titulo: 'Medidor de relação de espiras de transformador',
     modelo: 'TTR-01W',
-    imagemRef: '/ttr01w.jpg',
+    imagemRef: '/ttr01w.png',
     pdfRef: '/ttr01w.pdf',
     categoria: ['trafo'],
     conteudo:
@@ -207,7 +207,7 @@ const produtos = [
     id: '22',
     titulo: 'Medidor de simultaneidade',
     modelo: 'MS-03',
-    imagemRef: '/ms03.jpg',
+    imagemRef: '/ms03.png',
     pdfRef: '/ms03.pdf',
     categoria: ['disjuntores'],
     conteudo:
@@ -217,7 +217,7 @@ const produtos = [
     id: '23',
     titulo: 'Microhmímetro',
     modelo: 'MR-10W',
-    imagemRef: '/mr10w.jpg',
+    imagemRef: '/mr10w.png',
     pdfRef: '/mr10w.pdf',
     categoria: ['baixaResistencia', 'motores', 'trafo'],
     conteudo:
@@ -236,9 +236,9 @@ const produtos = [
   {
     id: '25',
     titulo: 'Surge test ressonante',
-    modelo: 'ST-2530',
-    imagemRef: '/st2530.jpg',
-    pdfRef: '/st2530.pdf',
+    modelo: 'ST-2500',
+    imagemRef: '/st2500.png',
+    pdfRef: '/st2500.pdf',
     categoria: ['motores'],
     conteudo:
       'Descobre defeitos em motores, geradores e bobinas pelo método da comparação. Analisa a condição operacional de um motor (bobina) verificando se existe curto entre espiras. Também faz o ensaio entre bobinas e entre as bobinas e a carcaça.',
@@ -256,7 +256,7 @@ const produtos = [
     id: '27',
     titulo: 'Unidade de ensaio de relés trifásicos',
     modelo: 'UEE-3F',
-    imagemRef: '/uee3f.jpg',
+    imagemRef: '/uee3f.png',
     pdfRef: '/uee3f.pdf',
     categoria: ['fasimetros', 'reles'],
     conteudo:
