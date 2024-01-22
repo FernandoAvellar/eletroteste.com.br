@@ -16,8 +16,8 @@ export default function SobrePage() {
           <div>
             <Image
               src="/iso9000.png"
-              width={250}
-              height={250}
+              width={223}
+              height={225}
               alt="Imagem"
             ></Image>
           </div>
