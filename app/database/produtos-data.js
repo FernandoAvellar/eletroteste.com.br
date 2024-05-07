@@ -281,6 +281,15 @@ const produtos = [
     categoria: ['reles'],
     conteudo: 'Para calibração de relés direcionais.',
   },
+  {
+    id: '30',
+    titulo: 'Microhmímetro 2A (SPDA)',
+    modelo: 'MR-2W',
+    imagemRef: '/mr2w.png',
+    pdfRef: '/mr2w.pdf',
+    categoria: ['baixaResistencia', 'motores', 'trafo'],
+    conteudo: 'Mede com precisão, resistências de valores muito baixo (10µohms), como resistência de contato de disjuntores, seccionadores, etc.',
+  }
 ]
 
 const categorias = [
