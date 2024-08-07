@@ -11,7 +11,7 @@ export default function Footer() {
           <span>(35)3471-4244</span>
           <span>eletro@eletroteste.com.br</span>
           <Link
-            href="https://wa.me/5535988054435"
+            href="https://wa.me/5535988054435?text=Acessei%20o%20site%20e%20gostaria%20de%20mais%20informa%C3%A7oes%20sobre:"
             target="_blank"
             className="hover:scale-102 flex flex-row items-center transition duration-700 ease-in-out hover:-translate-y-1"
           >
@@ -100,6 +100,24 @@ export default function Footer() {
       </div>
       <div className="py-1 text-center text-sm text-white md:py-2">
         &copy;Copyright Eletroteste Ind. e Com. LTDA
+      </div>
+      <div className="relative">
+        <a href="https://wa.me/5535988054435?text=Acessei%20o%20site%20e%20gostaria%20de%20mais%20informa%C3%A7oes%20sobre:" target="_blank">
+          <Image
+            className="fixed right-5 bottom-5 hidden 2xl:flex hover:scale-102 transition duration-700 ease-in-out hover:-translate-y-1"
+            src="/whatsapp-suspenso-largeScreen.png"
+            alt='alt="Imagem do whatsapp'
+            width={150}
+            height={50}
+          ></Image>
+          <Image
+            className="fixed rounded-full right-0 bottom-0 2xl:hidden hover:scale-102 transition duration-700 ease-in-out hover:-translate-y-1"
+            src="/whatsapp-suspenso-smallScreen.png"
+            alt='alt="Imagem do whatsapp'
+            width={60}
+            height={60}
+          ></Image>
+        </a>
       </div>
     </footer>
   )

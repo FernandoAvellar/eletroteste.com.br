@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Eletroteste',
   description: 'Site da empresa Eletroteste',
+  keywords: 'HIPOT, Fonte de corrente, Equipamentos de teste elétrico, Segurança elétrica'
 }
 
 export default function RootLayout({ children }) {
